@@ -205,3 +205,29 @@ a.social:hover {
 
 }
 
+/***** Traveling site */
+
+#header_traveling {
+  background-image: url(images/rsz_sea.jpg);
+}
+
+.center_image {
+  margin: auto;
+}
+
+
+@media screen and (min-width: 720px) {
+
+  #header_traveling {
+      min-height: 300px;
+  }
+
+  .flex {
+      flex-wrap: wrap;
+  }
+
+  .card {
+      flex-basis: 40%;
+  }
+  
+}
